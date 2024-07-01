@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let numbers = [45, 73, 195, 53]
+//Write your code here (you can do it with or without a function)
+func afterAccumulated(givenArray:Array&lt;Int&gt;) -&gt; Array&lt;Int&gt; 
+{
+    var sample = givenArray
+    var ogNum = sample[0]
+    for i in 0 ..&lt; sample.count
+    {
+        var j = i+1
+        
+        if j &gt;= sample.count
+        {
+            let result = sample[i] * ogNum
+            sample[i] = result
+        } else
+        {
+            let result = sample[i] * sample[j]
+            sample[i] = result
+        }
+        
+    }
+    return sample
+}
+
+let computedNumbers = afterAccumulated(givenArray: numbers)//Replace this comment with your code.
+print(computedNumbers)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 664}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

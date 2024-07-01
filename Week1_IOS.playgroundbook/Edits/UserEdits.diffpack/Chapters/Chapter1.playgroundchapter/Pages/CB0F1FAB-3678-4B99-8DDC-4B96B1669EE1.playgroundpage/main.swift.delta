@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let width = 2
+let height = 2
+print("Current width: \(width)");
+print("Current height: \(height)");
+func drawRectangle(givenWidth: Int, givenHeight: Int) {
+    // Complete the function body
+    for i in 0 ..&lt; givenHeight
+    {
+        for j in 0 ..&lt; givenWidth
+        {
+            print("*", terminator: "")
+        }
+        print("")
+    }
+}
+
+drawRectangle(givenWidth: width, givenHeight: height)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 400}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
