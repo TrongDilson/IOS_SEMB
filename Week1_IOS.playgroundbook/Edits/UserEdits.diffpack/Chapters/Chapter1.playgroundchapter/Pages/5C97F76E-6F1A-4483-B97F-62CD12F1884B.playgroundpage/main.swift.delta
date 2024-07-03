@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let sizes = [3, 3, 4]
+// Complete your code below (print out sizes and classify the triangle)
+func checkTriangle(givenLengths:Array&lt;Int&gt;) -&gt; String
+{
+    var isTriangle = givenLengths
+    var statement = ""
+    if isTriangle[0] + isTriangle[1] &gt; isTriangle[2] &amp;&amp; isTriangle[0] + isTriangle[2] &gt; isTriangle[1] &amp;&amp; isTriangle[2] + isTriangle[1] &gt; isTriangle[0]
+    {
+        statement = "The given sizes make a triangle."
+        
+        if isTriangle[0] == isTriangle[1] &amp;&amp; isTriangle[1] == isTriangle[2]
+        {
+            statement = "The given sizes make an Equilateral triangle"
+        }
+        if isTriangle[0] == isTriangle[1] || isTriangle[1] == isTriangle[2] || isTriangle[0] == isTriangle[2]
+        {
+            statement = "The given sizes make an Isosceles triangle"
+        }
+    } else 
+    {
+        statement = "The given sizes do not make a triangle."
+    }
+    
+    return statement
+}
+
+let finalStatement = checkTriangle(givenLengths: sizes)
+print(finalStatement)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 987}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

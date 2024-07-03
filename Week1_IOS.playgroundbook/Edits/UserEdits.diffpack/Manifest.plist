@@ -10,6 +10,10 @@
 	<string>PlaygroundBookUserEdit</string>
 	<key>Diffs</key>
 	<dict>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/5C97F76E-6F1A-4483-B97F-62CD12F1884B.playgroundpage/UserManifest.plist</key>
+		<string>Added</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/5C97F76E-6F1A-4483-B97F-62CD12F1884B.playgroundpage/main.swift</key>
+		<string>Modified</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/75136285-9937-425A-87A8-7DC898E5B510.playgroundpage/UserManifest.plist</key>
 		<string>Added</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/75136285-9937-425A-87A8-7DC898E5B510.playgroundpage/main.swift</key>
